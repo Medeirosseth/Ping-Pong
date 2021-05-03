@@ -22,7 +22,7 @@ using System;
 
     static void PlayGame()
     {
-      Console.WriteLine("Enter a number from 1-30");
+            Console.WriteLine("Enter a number from 1-30");
       string stringUserInput = Console.ReadLine();
       int userInput = int.Parse(stringUserInput);
       for( int number = 0; number <= userInput; number++)
@@ -43,6 +43,7 @@ using System;
       }
 
 
-  } 
+    } 
 
-  }
+
+} 
